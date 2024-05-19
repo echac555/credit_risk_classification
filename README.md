@@ -11,10 +11,12 @@ README.md - contains analysis and description of processes
 Steps:
 Read the data as a pandas dataframe
 Separate create label sets and Feature sets (y, X)
-Determine the total count of each value with .value_counts()
+Determine the total count of each value with (.value_counts())
 Split the data into Training and Testing sets
 Create Logistic Regression model using original data
-
+Save predictions as variable (.predict(X_test))
+Evaluate the models` performance using Confusion Matrix (test_matrix = confusion_matrix(y_test, test_pred))
+Print the classification report (training_report = classification_report(y_test, test_pred))
 
 Analysis:
 Explain the purpose of the analysis.
