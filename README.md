@@ -10,9 +10,11 @@ README.md - contains analysis and description of processes
 
 Steps:
 Read the data as a pandas dataframe
-Separate and split the data into Training and Testing sets
-Create label sets and Feature sets (y, X)
+Separate create label sets and Feature sets (y, X)
 Determine the total count of each value with .value_counts()
+Split the data into Training and Testing sets
+Create Logistic Regression model using original data
+
 
 Analysis:
 Explain the purpose of the analysis.
