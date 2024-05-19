@@ -8,6 +8,12 @@ Resources - contains lending_data.csv(dataset)
 credit_risk_classification.ipynb - contains code used in assignment
 README.md - contains analysis and description of processes
 
+Steps:
+Read the data as a pandas dataframe
+Separate and split the data into Training and Testing sets
+Create label sets and Feature sets (y, X)
+Determine the total count of each value with .value_counts()
+
 Analysis:
 Explain the purpose of the analysis.
 This analysis aims to construct a predictive model for classifying credit risk, leveraging financial data to determine the likelihood of a loan applicant having either a healthy loan or a high-risk loan. The objective is to anticipate whether applicants are prone to defaulting on payments or maintaining a stable repayment status.
